@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/001-create-tables.sql
+  - include:
+      file: db/changelog/changes/002-seed-data.sql
+  - include:
+      file: db/changelog/changes/003-add-external-id.sql
+  - include:
+      file: db/changelog/changes/004-create-outbox.sql
